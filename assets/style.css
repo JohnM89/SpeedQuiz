@@ -1,5 +1,7 @@
 
 /* Style the "Welcome to Speed Quiz" heading */
+
+/* Added Background image */
 body {
     background-image: url('./otrng.avif'); 
     background-size: cover; 
@@ -29,7 +31,6 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-/* Style the content below the heading */
 p {
   font-size: 1.5em;
   text-align: center;
@@ -39,13 +40,12 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-/* Style the button */
 .button-container {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-
+/* Background image for home container */
 #home-container {
   background-image: url('./huhtk.png');
   position: left, 100px;
@@ -57,7 +57,7 @@ p {
     justify-content: center;
     gap: 10px;
 }
-/* set text to a more readable colour */
+/* Set text to a more readable colour */
 #quiz-container {
   color: white;
 }

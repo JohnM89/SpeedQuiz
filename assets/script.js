@@ -1,3 +1,4 @@
+// Quiz questions and answers
 let questions = [
     {
         question: "What does 'var' stand for in JavaScript?",
